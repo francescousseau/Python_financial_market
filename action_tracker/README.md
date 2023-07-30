@@ -20,16 +20,20 @@ Você pode modificar a lista de ações rastreadas alterando a variável `action
 > Definindo ações do portfólio: Este trecho de código define uma lista de ações que serão usadas no restante do script. As ações são especificadas usando seus símbolos de ticker.
 ![Alt text](stock1.png)
 
+
 > Importando dados de ativos financeiros: Este trecho de código usa a função `download` da biblioteca `yfinance` para obter dados históricos das ações especificadas na lista `actions`. Os dados são obtidos a partir de 1º de janeiro de 2022.
 ![Alt text](stock2.png)
+
 
 > Criando o gráfico: Este trecho de código cria um gráfico mostrando o preço ajustado de fechamento das ações ao longo do tempo. O gráfico é criado usando funções da biblioteca `matplotlib.pyplot`.
 ![Alt text](stock3.png)
 ![Alt text](output0.png)
 
+
 > Normalizando preços: Este trecho de código normaliza os preços das ações dividindo cada preço pelo preço inicial. Em seguida, um novo gráfico é criado mostrando os preços normalizados ao longo do tempo.
 ![Alt text](stock4.png)
 ![Alt text](output.png)
+
 
 ## Contribuindo
 
