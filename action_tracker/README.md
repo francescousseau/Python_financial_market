@@ -11,6 +11,12 @@ pip install matplotlib
 > Importando bibliotecas: Este trecho de código importa as bibliotecas `yfinance` e `matplotlib.pyplot`, que são usadas para obter dados financeiros e criar gráficos, respectivamente.
 ![Alt text](stock.png)
 
+## Uso
+
+Para usar este script, basta executá-lo a partir da linha de comando. O script irá baixar automaticamente os dados financeiros das ações especificadas e criar gráficos mostrando o desempenho dessas ações ao longo do tempo.
+
+Você pode modificar a lista de ações rastreadas alterando a variável `actions` no início do script. Além disso, você pode modificar o período de tempo para o qual os dados são baixados alterando o valor do parâmetro `start` na chamada para a função `download`.
+
 > Definindo ações do portfólio: Este trecho de código define uma lista de ações que serão usadas no restante do script. As ações são especificadas usando seus símbolos de ticker.
 ![Alt text](stock1.png)
 
@@ -24,12 +30,6 @@ pip install matplotlib
 > Normalizando preços: Este trecho de código normaliza os preços das ações dividindo cada preço pelo preço inicial. Em seguida, um novo gráfico é criado mostrando os preços normalizados ao longo do tempo.
 ![Alt text](stock4.png)
 ![Alt text](output.png)
-
-## Uso
-
-Para usar este script, basta executá-lo a partir da linha de comando. O script irá baixar automaticamente os dados financeiros das ações especificadas e criar gráficos mostrando o desempenho dessas ações ao longo do tempo.
-
-Você pode modificar a lista de ações rastreadas alterando a variável `actions` no início do script. Além disso, você pode modificar o período de tempo para o qual os dados são baixados alterando o valor do parâmetro `start` na chamada para a função `download`.
 
 ## Contribuindo
 
