@@ -3,7 +3,8 @@
 Para usar este script, você precisará ter o Python 3 instalado em seu computador. Além disso, você precisará instalar as bibliotecas `yfinance` e `matplotlib`. Isso pode ser feito usando o seguinte comando:
 
 ```
-pip install yfinance matplotlib
+pip install yfinance
+pip install matplotlib
 ```
 - Importando bibliotecas: Este trecho de código importa as bibliotecas `yfinance` e `matplotlib.pyplot`, que são usadas para obter dados financeiros e criar gráficos, respectivamente.
 ![Alt text](stock.png)
