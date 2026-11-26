@@ -12,26 +12,18 @@ O projeto utiliza bibliotecas de processamento de dados, como pandas e yfinance,
 
 # Instalação
 
-1. Faça um Fork deste repositório.
-2. Clone o repositório para sua máquina local.
-3. Crie um ambiente virtual e ative-o.
-4. Instale as dependências executando o comando `pip install -r requirements.txt`.
-5. Execute o script `main.py` para iniciar a previsão de preços de ações.
+1. Clone o repositório e entre na pasta do projeto: `cd Python_financial_market/retorno_bancario`.
+2. Crie e ative um ambiente virtual.
+3. Instale as dependências: `pip install -r ../requirements.txt`.
 
 # Uso
 
-Após a instalação e configuração, você pode usar o projeto da seguinte maneira:
+1. Abra o notebook `bancos_retorno.ipynb` com Jupyter (`jupyter lab`).
+2. Execute as células em ordem. O notebook lê a planilha `lucro_bancos.xlsx` desta mesma pasta (caminho relativo) e baixa os preços de ações e do índice IBOVESPA com `yfinance`.
 
-1. Importe as bibliotecas:
- `pandas`
- `yfinance`
- `matplotlib.pyplot`
- `matplotlib.ticker`
-2. Importe o arquivo em Excel disponivel na pasta.
+Bibliotecas usadas: `pandas`, `yfinance`, `matplotlib.pyplot` e `matplotlib.ticker`.
 
-Exemplo de código:
-
-![code](https://github.com/admfrancescousseau/Python_financial_market/assets/112359213/02d189dd-a2f4-4ceb-af92-4739ef698c5b)
+> **Observação:** o `yfinance` consulta uma fonte pública que pode mudar. Os resultados dependem da versão da biblioteca e da data da execução.
 
 # Contribuição
 
