@@ -1,0 +1,6 @@
+# Versões não fixadas: não foram verificadas neste repositório.
+pandas
+yfinance
+matplotlib
+openpyxl
+jupyterlab
